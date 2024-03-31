@@ -2,7 +2,7 @@
 Chat application based on Retrieval Augmented Generation RAG technique, using LangChain, chromadb, BeatifulSoup and Streamlit libraries on Mistral7B llm. 
 
 ## High Level approach
-The application pipeline broadly follows any ML pipeline in terms of data retrieval and wrangling in the pre-processing stage. This curated data is fed into the model to generate the response during the Model interaction stage. Finally, the output from the model is formated for any desired output specific requirements.
+The application pipeline broadly follows the typical ML pipeline in terms of data retrieval and wrangling in the pre-processing stage. This curated data is fed into the model to generate the response during the Model interaction stage. Finally, the output from the model is formated for any desired output specific requirements.
 
 ### Pre-processing
 This application during the Pre-processing stage retrieves web pages from the pre-defined list of input urls. Beatiful soup library is used to scrap the web pages and additional processing is carried out to extract the content from the scrapped web pages. This extracted information is further processed using langchain RecursiveCharacterTextSplitter to chuck the information with a chunk_size=300 and chunk_overlap=15.
