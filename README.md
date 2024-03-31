@@ -19,4 +19,4 @@ Please Note : Create a Access Token in the Huggingface website for accessing the
 
 ### Post-Processing
 
-In the post-processing stage the output from the llm is appended to the container component of the streamlit library with User and AI avatars to distinguish between them.
+In the post-processing stage the output from the llm is used to enhance the user experience by adding response to the container component of the streamlit library with User and AI avatars to distinguish between them.
