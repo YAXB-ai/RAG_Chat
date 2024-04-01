@@ -140,7 +140,7 @@ def get_response(retrive,quetion):
     # conversation=ConversationChain(llm=llm,memory=memory,verbose=True)
     # result=conversation.predict(input=quetion)
 
-    return conversation.memory.buffer
+    #return conversation.memory.buffer
  #````````````````````````````````````````````#
 #````````````SET RAG CHAIN```````````````#
 #````````````````````````````````````````````#
